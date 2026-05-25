@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "test": "npm test --prefix sample-react-app",
+    "build": "npm run build --prefix sample-react-app"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
